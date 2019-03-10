@@ -1,4 +1,4 @@
-<nav id="navbar-example2" class="navbar navbar-dark bg-primary">
+<nav id="navbar-example2" class="navbar navbar-dark bg-primary fixed-top">
   <a class="navbar-brand" href="#">Open Virtual Desktop</a>
   <ul class="nav nav-pills">
     <li class="nav-item">
@@ -12,8 +12,8 @@
     </li>
   </ul>
 </nav>
-<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-  <div class="container">
+<div class="content" data-spy="scroll" data-target="#navbar-example2" data-offset="0" >
+  <div class="jumbotron">
     <h1 id="about">About</h1>
     <p>
       Open Virtual Desktop (OVD) is a web app acting as a portal by which users may
@@ -38,12 +38,13 @@
       <li>Allows easy management of users in groups</li>
       <li>Automates admin workflows</li>
     </ul>
+    <button type="button" class="btn btn-primary btn-lg btn-block">Find us on <i class="fab fa-github"></i></button>
   </div>
-  <div class="container">
+  <div class="jumbotron">
     <h1 id="team">Team</h1>
     <div class="cards">
 
-      <div class="card bg-light">
+      <div class="card text-white bg-primary mb-3">
         <img src="../assets/pics/mark.JPG" class="card-img-top" alt="Mark's portrait">
         <div class="card-body">
           <h5 class="card-title">Mark Beussink</h5>
@@ -53,10 +54,10 @@
             passionate about tackling problems with ingenious solutions and 
             producing products that have a meaningful impact on everday lives. 
             Pyro and Roy main.</p>
-          <a href="mailto:mrbeussink@siu.edu" class="card-link">Email</a>
+          <a href="mailto:mrbeussink@siu.edu" class="btn btn-primary">Email</a>
         </div>
       </div>
-      <div class="card bg-light">
+      <div class="card text-white bg-primary mb-3">
           <img src="../assets/pics/ej.JPG" class="card-img-top" alt="Edwards's portrait">
           <div class="card-body">
             <h5 class="card-title">EJ Byrne</h5>
@@ -65,10 +66,10 @@
               with a side interest in data manipulation. When he isn't working 
               on testing different programs, he can be found messing with his 
               mini home lab breaking it more than not.</p>
-            <a href="mailto:brynee@siu.edu" class="card-link">Email</a>
+            <a href="mailto:brynee@siu.edu" class="btn btn-primary">Email</a>
           </div>
         </div>
-        <div class="card bg-light">
+        <div class="card text-white bg-primary mb-3">
             <img src="../assets/pics/andy.JPG" class="card-img-top" alt="Andrew's portrait">
             <div class="card-body">
               <h5 class="card-title">Andrew Cowden</h5>
@@ -77,10 +78,10 @@
                  He thrives in back end dev but is eager to learn as much as he 
                  can about full stack dev. He enjoys listening to music, hiking 
                  in the great outdoors, and 3D printing.</p>
-              <a href="mailto:am.cowden@gmail.com" class="card-link">Email</a>
+              <a href="mailto:am.cowden@gmail.com" class="btn btn-primary">Email</a>
             </div>
           </div>
-          <div class="card bg-light">
+          <div class="card text-white bg-primary mb-3">
               <img src="../assets/pics/justin.JPG" class="card-img-top" alt="Justin's portrait">
               <div class="card-body">
                 <h5 class="card-title">Justin Sieling</h5>
@@ -89,7 +90,7 @@
                   web dev, and software engineering. When not working on 
                   schoolwork, projects, or work he can be found playing 
                   racquetball or video games or snuggling with his cat.</p>
-                <a href="mailto:jmsieling@siu.edu" class="card-link">Email</a>
+                <a href="mailto:jmsieling@siu.edu" class="btn btn-primary">Email</a>
               </div>
             </div>
     </div>

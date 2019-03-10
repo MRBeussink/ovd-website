@@ -1,7 +1,11 @@
 .container {
-    margin-top: 15px;
+    padding-top: 60px;
 }
 
 .card {
     width: 20rem;
+}
+
+.content {
+    position: relative;
 }
