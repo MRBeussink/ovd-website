@@ -2,6 +2,10 @@
     padding-top: 60px;
 }
 
+.cards {
+  display: flex;
+}
+
 .card {
     width: 20rem;
 }
