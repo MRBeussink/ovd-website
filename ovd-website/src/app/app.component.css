@@ -1,5 +1,6 @@
 .container {
-    padding-top: 60px;
+    margin: auto;
+    width: 80%;
 }
 
 .cards {
@@ -10,6 +11,6 @@
     width: 20rem;
 }
 
-.content {
+body {
     position: relative;
 }

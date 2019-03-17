@@ -1,0 +1,14 @@
+.cards {
+    position: relative;
+    /* display: flex; */
+  }
+
+.row {
+    display: flex;
+}
+  
+.card {
+    width: 25rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
